@@ -6,3 +6,4 @@
 (require "factorial.rkt")
 (require "sum-square.rkt")
 (require "sub-square.rkt")
+(require "distance.rkt")
