@@ -1,0 +1,1 @@
+("8.6" ta6nt ("afcabf0806d40d4e1daa547ec3c4ccd988a7ab5c" . "ebbaa620a1b4ef77af0b8bd15f5ff06215d44034") #"C:\\Users\\Jorge Moraga Calvo\\Documents\\operations\\basic-operations.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
