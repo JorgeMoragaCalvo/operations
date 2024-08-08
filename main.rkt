@@ -4,3 +4,5 @@
 (require "div.rkt")
 (require "power.rkt")
 (require "factorial.rkt")
+(require "sum-square.rkt")
+(require "sub-square.rkt")
