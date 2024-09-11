@@ -5,7 +5,7 @@
 (provide my-div)
 (provide my-remainder)
 
-
+; it returns the integer part of the division
 (define my-div (lambda (x y)
                  (define div (lambda (n1 n2 accu)
                                (if (< n1 n2)
@@ -22,5 +22,7 @@
 (define mult-by-ten (lambda (x)
                       (my-mult x 10)))
 
+; it returns the decimal part of a division. The first decimal
+; (my-decimal 5 2) -> 5
 (define my-decimal (lambda (x y)
                      (my-div (mult-by-ten (my-remainder x y)) y)))

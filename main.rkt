@@ -7,3 +7,7 @@
 (require "sum-square.rkt")
 (require "sub-square.rkt")
 (require "distance.rkt")
+(require "utils-list.rkt")
+(require "major-list.rkt")
+(require "minor-list.rkt")
+(require "swap.rkt")

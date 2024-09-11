@@ -1,1 +1,1 @@
-("8.6" ta6nt ("e8ac726bb7b12b633b392c374b2aea97849716fe" . "20a310f216fa29125028b2f5595cfbe1e53bc249") #"D:\\operations\\basic-operations.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
+("8.6" ta6nt ("6016f10265e6353db633bbfa277dde9938cf5eaf" . "90c2dc63d1ee4b71215cb93544be72764466f41b") #"D:\\operations\\basic-operations.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))

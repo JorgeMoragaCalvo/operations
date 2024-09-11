@@ -10,8 +10,10 @@
                      (- 0 x)
                      x)))
 
+; result (a)^2 or (-a)^2
 (define my-square (lambda (x)
                     (my-mult (my-abs x) (my-abs x))))
 
+; result (a + b)^2
 (define sum-square (lambda (x y)
                      (my-square (my-sum x y))))
