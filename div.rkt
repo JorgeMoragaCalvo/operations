@@ -26,3 +26,11 @@
 ; (my-decimal 5 2) -> 5
 (define my-decimal (lambda (x y)
                      (my-div (mult-by-ten (my-remainder x y)) y)))
+
+
+(define number-of-digits (lambda (x)
+                           (define digits (lambda (n accu)
+                                            (if (< n 10)
+                                                accu
+                                                (digits (my-div n 10)(my-sum accu 1)))))
+                           (digits x 1)))
