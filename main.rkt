@@ -11,3 +11,4 @@
 (require "major-list.rkt")
 (require "minor-list.rkt")
 (require "swap.rkt")
+(require "binomialcoef.rkt")
