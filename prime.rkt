@@ -27,3 +27,12 @@
                                               [(equal? (is-prime? n2) #t) (prime n1 (my-sum n2 1) (cons n2 l))]
                                               [else (prime n1 (my-sum n2 1) l)])))
                         (prime x 2 '())))
+
+; prime factors of x
+(define prime-factor-list (lambda (x)
+                            (define factor-list (lambda (n i l)
+                                                  (cond [(equal? n 1) (my-reverse l)]
+                                                        [(equal? (my-remainder n i) 0)(factor-list (my-div n i) i (cons i l))]
+                                                        [else (factor-list n (my-sum i 1) l)])))
+                            (factor-list x 2 '())))
+                            
