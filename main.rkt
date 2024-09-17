@@ -12,3 +12,5 @@
 (require "minor-list.rkt")
 (require "swap.rkt")
 (require "binomialcoef.rkt")
+(require "even.rkt")
+(require "prime.rkt")

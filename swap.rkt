@@ -2,10 +2,10 @@
 
 (require "utils-list.rkt")
 
-(provide my-swap)
+(provide my-reverse)
 
 ; it reverses the list
-(define my-swap (lambda (lst)
+(define my-reverse (lambda (lst)
                   (define swap (lambda (l1 l2)
                                  (if (null? l1)
                                      l2
