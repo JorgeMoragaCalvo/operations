@@ -12,6 +12,7 @@
                       (power-to x n x)))
 |#
 
+; result -> x^n
 (define my-power-to (lambda (x n)
                       (define power-to (lambda (a b c)
                                          (if (= b 0)

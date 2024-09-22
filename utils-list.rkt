@@ -2,6 +2,7 @@
 
 ;(require "swap.rkt")
 (require "basic-operations.rkt")
+(require "sum-square.rkt")
 
 (provide major)
 (provide my-length)
@@ -37,3 +38,17 @@
                                                lst
                                                (list-from n1 (my-sum n2 1) (cons n2 lst)))))
                        (list-from x 1 '())))
+
+
+(define square-list (lambda (lst)
+                      (define square (lambda (l1 l2)
+                                       (if (null? l1)
+                                           l2
+                                           (square (cdr l1) (cons (my-square (car l1)) l2)))))
+                      (square lst '())))
+
+
+(define is-in? (lambda (lst searched)
+                 (cond [(null? lst) #f]
+                       [(= (car lst) searched) #t]
+                       [else (is-in? (cdr lst) searched)])))

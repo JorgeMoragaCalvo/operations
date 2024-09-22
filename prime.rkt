@@ -8,6 +8,7 @@
 
 (provide is-prime?)
 (provide prime-from-to)
+(provide prime-factor-list)
 
 
 (define is-prime? (lambda (n)
